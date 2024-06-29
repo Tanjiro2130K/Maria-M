@@ -1962,180 +1962,184 @@ break;
   case 'menu': case 'help': case 'h': 
       const txt = ` 👋🏻 (❤️ω❤️) Konnichiwa, senpai ${M.sender.username}! this is SHINOBU🌸
 
-╭──────────────────┈      
-│⋊ 𝕌𝕤𝕖𝕣: ${pushname} 
-│⋊ 𝔹𝕠𝕥:  ${botname}
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
-│⋊ 𝔻𝕒𝕥𝕖: ${Ayuxxdate}
-│⋊ 𝕋𝕚𝕞𝕖:  ${xtime}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: ${ownername}
-│⋊ 𝕧𝕖𝕣𝕤𝕚𝕠𝕟: ${mver}
-│⋊ ℍ𝕠𝕤𝕥: ${os.hostname()}
-│⋊ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
-│⋊ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
-│⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/Maria-support
+╭───────────────────┈      
+│⋊ *USER*: ${pushname} 
+│⋊ *BOT*:  SHINOBU🌸
+│⋊ *PREFIX*:  [.]
+│⋊ *OWNER*: TIKU✨🦋 
+│⋊ *GROUP*: https://chat.whatsapp.com/DQGWzesuDbz6Qq27pGyWlY
 ╰────────────┈平和
- 🎀𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧: https://www.instagram.com/ayushpandeyy_023
 
-Here's the list of my Commands.🔖
+🧣 want bot on group tex +917086810603
+
+🎋 *Support us by following us on instagram:* _ne_itachi _
+
+
 ${readmore}
-┌──⊰ _*🧧GENERAL🧧*_
-│⊳ 🌿 ${prefix}hi
-│⊳ 🌿 ${prefix}dev
-│⊳ 🌿 ${prefix}info
-│⊳ 🌿 ${prefix}support
-│⊳ 🌿 ${prefix}rules
-│⊳ 🌿 ${prefix}term
-│⊳ 🌿 ${prefix}help
-│⊳ 🌿 ${prefix}runtime
-│⊳ 🌿 ${prefix}ping
-│⊳ 🌿 ${prefix}owner
-│⊳ 🌿 ${prefix}script
-└──────────⊰
-┌──⊰ _*🎓Education🎓*_
-│⊳ 📚 ${prefix}element 
-│⊳ 📚 ${prefix}calculator 
-│⊳ 📚 ${prefix}sciencefact
-│⊳ 📚 ${prefix}sciencenews
-└──────────⊰
-┌──⊰ _*💻Coding💻*_
-│⊳ 🌀${prefix}exec
-│⊳ 🌀${prefix}run
-│⊳ 🌀${prefix}gitclone
-└──────────⊰
-┌──⊰ _*🧩OWNER🧩*_
-│⊳ ♠️ ${prefix}session
-│⊳ ♠️ ${prefix}join
-│⊳ ♠️ ${prefix}mode *[self/public]*
-│⊳ ♠️ ${prefix}shutdown
-│⊳ ♠️ ${prefix}restart
-│⊳ ♠️ ${prefix}autoread *[option]*
-│⊳ ♠️ ${prefix}autotyping *[option]*
-│⊳ ♠️ ${prefix}autorecording *[option]*
-│⊳ ♠️ ${prefix}autorecordtyp *[option]*
-│⊳ ♠️ ${prefix}autobio *[option]*
-│⊳ ♠️ ${prefix}autoswview *[option]*
-│⊳ ♠️ ${prefix}setppbot
-│⊳ ♠️ ${prefix}stealdp
-│⊳ ♠️ ${prefix}block
-│⊳ ♠️ ${prefix}unblock
-│⊳ ♠️ ${prefix}backup
-│⊳ ♠️ ${prefix}getcase
-│⊳ ♠️ ${prefix}creategc
-└──────────⊰
-┌──⊰ _*👮🏻‍♂️GROUP👮🏻‍♂️*_
-│⊳ 🍁 ${prefix}antilink
-│⊳ 🍁 ${prefix}closetime
-│⊳ 🍁 ${prefix}opentime
-│⊳ 🍁 ${prefix}kick
-│⊳ 🍁 ${prefix}promote
-│⊳ 🍁 ${prefix}promoteall
-│⊳ 🍁 ${prefix}demote
-│⊳ 🍁 ${prefix}demoteall
-│⊳ 🍁 ${prefix}joinrequest
-│⊳ 🍁 ${prefix}setdesc
-│⊳ 🍁 ${prefix}setppgc
-│⊳ 🍁 ${prefix}tagall
-│⊳ 🍁 ${prefix}hidetag
-│⊳ 🍁 ${prefix}totag
-│⊳ 🍁 ${prefix}group *[option]*
-│⊳ 🍁 ${prefix}editinfo
-│⊳ 🍁 ${prefix}gclink
-│⊳ 🍁 ${prefix}revoke
-│⊳ 🍁 ${prefix}listonline
-└──────────⊰
-┌──⊰ _*🎉FUN🎉*_
-│⊳🎟️ ${prefix}truth
-│⊳🎟️ ${prefix}dare
-│⊳🎟️ ${prefix}couple 
-│⊳🎟️ ${prefix}Ship
-│⊳🎟️ ${prefix}insult 
-│⊳🎟️ ${prefix}flirt
-│⊳🎟️ ${prefix}shayari
-│⊳🎟️ ${prefix}joke
-│⊳🎟️ ${prefix}soulmate
-│⊳🎟️ ${prefix}checkdeath
-│⊳🎟️ ${prefix}uglycheck
-│⊳🎟️ ${prefix}lovelycheck
-│⊳🎟️ ${prefix}prettycheck
-│⊳🎟️ ${prefix}hornycheck
-│⊳🎟️ ${prefix}lesbiancheck
-│⊳🎟️ ${prefix}lesbicheck
-│⊳🎟️ ${prefix}lesbiancheck
-│⊳🎟️ ${prefix}cutecheck
-│⊳🎟️ ${prefix}gaycheck
-│⊳🎟️ ${prefix}greatcheck
-│⊳🎟️ ${prefix}awesomecheck 
-└──────────⊰
-┌──⊰ _*📂download📂*_
-│⊳ 📥 ${prefix}play
-│⊳ 📥 ${prefix}ytmp3
-│⊳ 📥 ${prefix}ytmp4
-│⊳ 📥 ${prefix}igimage 
-│⊳ 📥 ${prefix}igvideo 
-│⊳ 📥 ${prefix}pinterest
-│⊳ 📥 ${prefix}apk
-└──────────⊰
-┌──⊰ _*✨️WALLPAPER✨️*_
-│⊳ 🎴 ${prefix}Doraemon
-│⊳ 🎴 ${prefix}pokemon 
-│⊳ 🎴 ${prefix}zero-two 
-└──────────⊰
-┌──⊰ _*🎐SnapBlend🎐*_
-│⊳🎀 ${prefix}shadow
-│⊳🎀 ${prefix}write
-│⊳🎀 ${prefix}smoke
-│⊳🎀 ${prefix}burnpaper
-│⊳🎀 ${prefix}romantic
-│⊳🎀 ${prefix}writeart
-│⊳🎀 ${prefix}rainboweffect
-│⊳🎀 ${prefix}smokyneon
-│⊳🎀 ${prefix}underwaterocean
-│⊳🎀 ${prefix}coffecup
-│⊳🎀 ${prefix}doublelove
-│⊳🎀 ${prefix}undergrass
-│⊳🎀 ${prefix}love
-│⊳🎀 ${prefix}narutobanner
-│⊳🎀 ${prefix}shinetext
-└──────────⊰
-┌──⊰ _*⛩️OTHERS⛩️*_
-│⊳ 🏮 ${prefix}sticker
-│⊳ 🏮 ${prefix}qc
-│⊳ 🏮 ${prefix}smeme
-│⊳ 🏮 ${prefix}take
-│⊳ 🏮 ${prefix}getbio
-│⊳ 🏮 ${prefix}toimage
-│⊳ 🏮 ${prefix}tovideo
-│⊳ 🏮 ${prefix}toaudio
-│⊳ 🏮 ${prefix}tomp3
-│⊳ 🏮 ${prefix}tovn
-│⊳ 🏮 ${prefix}togif
-│⊳ 🏮 ${prefix}tourl
-│⊳ 🏮 ${prefix}toqr
-│⊳ 🏮 ${prefix}toviewonce
-│⊳ 🏮 ${prefix}fliptext
-│⊳ 🏮 ${prefix}emojimix
-│⊳ 🏮 ${prefix}circlevideo
-│⊳ 🏮 ${prefix}google
-│⊳ 🏮 ${prefix}pinterest
-│⊳ 🏮 ${prefix}dalle
-│⊳ 🏮 ${prefix}gpt
-│⊳ 🏮 ${prefix}say
-│⊳ 🏮 ${prefix}tts
-│⊳ 🏮 ${prefix}obfuscate
-└──────────⊰
-┌──⊰ _*🃏Games🃏*_
-│⊳ 🎰 ${prefix}slot
-│⊳ 🎰 ${prefix}poker
-│⊳ 🎰 ${prefix}dice
-│⊳ 🎰 ${prefix}flipcoin
-│⊳ 🎰 ${prefix}Rps
-│⊳ 🎰 ${prefix}guess
-│⊳ 🎰 ${prefix}roulette
-│⊳ 🎰 ${prefix}blackjack
-│⊳ 🎰 ${prefix}compliment
-└──────────⊰
+
+ ┌ ◦ *🎴「CORE」🎴*
+ hi
+ dev
+ info
+ support
+ rules
+ term
+ help
+ ping
+ runtime
+ owner
+ script
+   
+ ┌ ◦ *🎓「EDUCATION」🎓*
+ element
+ calculator 
+ sciencefact
+ sciencenews
+ 
+ ┌ ◦ *🍂「CODING」🍂*
+ exec
+ run
+ Gitclone
+  
+ ┌ ◦ *🍥「OWNER」🍥*
+ session
+ join
+ mode
+ shutdown
+ restart
+ autoread
+ autotyping
+ autorecording
+ autorecordtyp
+ autobio
+ autoswview
+ setppbot
+ stealdp
+ block
+ unblock
+ backup
+ getcase
+ creategc
+
+
+ ┌ ◦ *🍁「MODERATION」🍁*
+ antilink
+ closetime
+ opentime
+ kick
+ promote
+ promoteall
+ demote
+ demoteall
+ joinrequest
+ setdesc
+ setppgc
+ tagall
+ hidetag
+ totag
+ group
+ editinfo
+ gclink
+ revoke
+ listonline
+
+ ┌ ◦ *🍀「FUN」🍀*
+ truth
+ dare
+ couple 
+ ship
+ insult 
+ flirt
+ shayari
+ joke
+ soulmate
+ checkdeath
+ uglycheck
+ lovelycheck
+ prettycheck
+ hornycheck
+ lesbiancheck
+ lesbicheck
+ lesbiancheck
+ cutecheck
+ gaycheck
+ greatcheck
+ awesomecheck 
+ 
+ ┌ ◦ *🌊「MEDIA」🌊*
+ plaY
+ ytmp3
+ ytmp4
+ igimage 
+ igvideo 
+ pinterest
+ apk
+
+
+ ┌ ◦ *☄️「WALLPAPER」☄️*
+ Doraemon
+ pokemon 
+ zero-two 
+ 
+
+
+ ┌ ◦ *🎐「SEARCH」🎐*
+ shadow
+ write
+ smoke
+ burnpaper
+ romantic
+ writeart
+ rainboweffect
+ smokyneon
+ underwaterocean
+ coffecup
+ doublelove
+ undergrass
+ love
+ narutobanner
+ shinetext
+ 
+ 
+ ┌ ◦ *🌺「UTILS」🌺*
+ sticker
+ qc
+ smeme
+ take
+ getbio
+ toimage
+ tovideo
+ toaudio
+ tomp3
+ tovn
+ togif
+ tourl
+ toqr
+ toviewonce
+ fliptext
+ emojimix
+ circlevideo
+ google
+ pinterest
+ dalle
+ gpt
+ say
+ tts
+ obfuscate
+
+
+
+ ┌ ◦ *🀄「GAMES」🀄*
+ slot
+ poker
+ dice
+ flipcoin
+ Rps
+ guess
+ roulette
+ blackjack
+ compliment
+ 
 
 🍂 To enable NSFW (Admin only!), enter  *${prefix}nsfw* 
 
@@ -2269,19 +2273,18 @@ case 'public': {
 ////////////////////menu_v2.1///////////////////////
    
 case 'generalmenu':
-    const generalmenu = `┌──⊰ _*🧧GENERAL🧧*_
-│⊳ 🌿 ${prefix}hi
-│⊳ 🌿 ${prefix}dev
-│⊳ 🌿 ${prefix}info
-│⊳ 🌿 ${prefix}support
-│⊳ 🌿 ${prefix}rules
-│⊳ 🌿 ${prefix}term
-│⊳ 🌿 ${prefix}help
-│⊳ 🌿 ${prefix}runtime
-│⊳ 🌿 ${prefix}ping
-│⊳ 🌿 ${prefix}owner
-│⊳ 🌿 ${prefix}script
-└──────────⊰
+    const generalmenu = ` ┌ ◦ *🎴「CORE」🎴*
+ hi
+ dev
+ info
+ support
+ rules
+ term
+ help
+ ping
+ runtime
+ owner
+ script
 `
 let gmsg = generateWAMessageFromContent(from, {
   viewOnceMessage: {
