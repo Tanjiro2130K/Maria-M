@@ -3786,17 +3786,14 @@ https://chat.whatsapp.com/${response}
 case 'developer':
 case 'dev':
     const devmod = `  🍥 *Moderators* 🍥\n\n
-*🎫Ayush* @919931122319
+*TIKU✨🦋*
 
-*🎫xeon* @916909137213
-
-*🎫Pikachu* @918811074852
-
-*🎫OldUser* @918602239106
+🍥 @917086726371
+🍥 @917086810603
  \n
-\n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using Maria-Md* `;
+\n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using SHINOBU💮* `;
 
-    Maria.sendMessage(m.chat, { text: devmod, mentions: ["919931122319@s.whatsapp.net", "918811074852@s.whatsapp.net", "916909137213@s.whatsapp.net","918602239106@s.whatsapp.net"] }, { quoted: m });
+    Maria.sendMessage(m.chat, { text: devmod, mentions: ["917086726371@s.whatsapp.net", "917086810603@swhatsapp.net"] }, { quoted: m });
     break;
 
 
