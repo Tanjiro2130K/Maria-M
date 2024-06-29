@@ -4256,7 +4256,7 @@ Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/7b6f7109bfaaf
             Maria.sendMessage(from, { react: { text: "™️", key: m.key }}) 
         let tifx = `*𝚃𝙴𝚁𝙼𝚜 𝙰𝙽𝙳 𝙲𝙾𝙽𝙳𝙸𝚃𝙸𝙾𝙽*\n\n
 ⍟ *────────────────* ⍟ 
-SHINOBU💮 IS FUTURE NOW 🍥
+SHINOBU💮 IS FUTURE NOW 🍥`
 
 Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/fe79aebe1e0b1f5b2781c.jpg" }, caption: tifx, gifPlayback: true }, { quoted: m });
         break;
