@@ -1960,7 +1960,7 @@ break;
 
 			    
   case 'menu': case 'help': case 'h': 
-      const txt = ` 👋🏻 (❤️ω❤️) Konnichiwa, senpai ${M.sender.username}! this is SHINOBU🌸
+      const txt = ` 👋🏻 (❤️ω❤️) Konnichiwa, senpai ${pushname}! this is SHINOBU🌸
 
 ╭───────────────────┈      
 │⋊ *USER*: ${pushname} 
