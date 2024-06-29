@@ -4233,24 +4233,24 @@ case 'chat':
         
 case "info":
             Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
-        let ifx = `❁ ════ ❃•💙 *MARIA* 💙•❃ ════ ❁
+        let ifx = `❁ ════ ❃•💙 *SHINOBU💮* 💙•❃ ════ ❁
 
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 
-❁ ═══ ❃•📕 *INFORMATION*📕•❃ ═══ ❁
+❁ ═══ 📕 *INFORMATION*📕 ═══ ❁
 \`\`\`A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript\`\`\`
 
-❁ ══════ ❃•📄 *NOTE* 📄•❃ ══════ ❁
-\`\`\`This bot is a free open source project by THE TEAM AYUSH\`\`\`
+❁ ══════ 📄 *NOTE* 📄 ══════ ❁
+\`\`\`This bot is a free open source project by TIKU✨🦋\`\`\`
 
-❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:- https://github.com/AYUSH-PANDEY023/Maria-MD_*
+❁ ═════ 📑 *GITHUB* 📑 ═════ ❁
+*Sorry its private ✨*
 
 
-❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
+❁ ═══ ✍🏻 *CONTRIBUTE* ✍🏻 ═══ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing ${prefix}owner or ${prefix}mods`
 
-Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/c8ad7dc322c0b9b7eca8f.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/7b6f7109bfaaf3e11234d.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
         break;
 
 
@@ -4259,30 +4259,9 @@ Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/c8ad7dc322c0b9
             Maria.sendMessage(from, { react: { text: "™️", key: m.key }}) 
         let tifx = `*𝚃𝙴𝚁𝙼𝚜 𝙰𝙽𝙳 𝙲𝙾𝙽𝙳𝙸𝚃𝙸𝙾𝙽*\n\n
 ⍟ *────────────────* ⍟ 
+SHINOBU💮 IS FUTURE NOW 🍥
 
-📝 Note: Beware of fake Maria-MD bots! People may falsely claim to represent Maria-MD. Please exercise caution.
-
-_Whatsapp Bots have become increasingly popular, but with that comes the risk of encountering fake accounts. Stay vigilant._
-
-*Ban from using the bot:*
-
-*⛔ Breaking the following rules will result in a ban:*
-*⛔ Calling any of the bot numbers*
-*⛔ Using unlisted commands (commands not listed in help)*
-*⛔ Insulting / ignoring bot staff / warnings*
-
-*Contact information:*
-
-_We will update the bot's terms and conditions periodically, so it's your responsibility to check our support groups for updates._
-_If you have any questions regarding our terms, please reach out to us._
-_For everything else, use common sense._
-
-*FUTURE IS NOW🚀~MARIA-MD*
-*_🚀Team Ayush_*
-
-⍟ *────────────────* ⍟`
-
-Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/c8ad7dc322c0b9b7eca8f.jpg" }, caption: tifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: "https://telegra.ph/file/fe79aebe1e0b1f5b2781c.jpg" }, caption: tifx, gifPlayback: true }, { quoted: m });
         break;
 /////////////////////////////////////////////////////
 
