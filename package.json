@@ -18,7 +18,7 @@
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^10.0.1",
-        "@queenanya/invite": "^6.0.0",
+        "@queenanya/invite": "latest",
         "@whiskeysockets/baileys": "latest",
         "awesome-phonenumber": "^5.9.0",
         "axios": "^1.4.0",
