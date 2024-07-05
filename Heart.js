@@ -2974,15 +2974,7 @@ await Maria.relayMessage(gamemsg.key.remoteJid, gamemsg.message, {
     
     
     case 'alive': {
-  const alivem = `┏━━━━❮ 𝚫𝐋𝚰𝛁𝚵 ❯━━━━━᯽
-┃ *🤖 Bot Name:* ${botname}
-┃ *👨‍✈️ Creator:* ${ownername}
-┃ *💻 RUNTIME:* ${runtime(process.uptime())}
-┃ *📅 TODAY:* ${Ayuxxdate}
-┃ *💠 Github:* https://github.com/AYUSH-PANDEY023/Maria-MD
-┃ *💬MESSAGE:* 𝙔𝙀𝙎! 𝙄 𝘼𝙈 𝘼𝙇𝙄𝙑𝙀 𝘽𝘼𝘽𝙔😚!!
-┗━━━━━━━━━━━━━━━᯽
-_Please Select Button Below_
+  const alivem = ` I AM HERE 🍂
 `  
 let msg = generateWAMessageFromContent(from, {
   viewOnceMessage: {
@@ -3007,14 +2999,7 @@ let msg = generateWAMessageFromContent(from, {
                 }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-                            {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"MENU 🗃️","id":"${prefix}menu"}`
-   },
-                 {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"List Menu 🔖","id":"${prefix}list"}`
-   },
+                          
                  {
   "name": "quick_reply",
   "buttonParamsJson": `{"display_text":"DEVELOPER 👨🏼‍💻","id":"${prefix}developer"}`
@@ -3030,7 +3015,7 @@ let msg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"CHANNEL🚀\",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"CHANNEL🚀\",\"url\":\"https://chat.whatsapp.com/DQGWzesuDbz6Qq27pGyWlY\",\"merchant_url\":\"https://www.google.com\"}"
               }                      
            ],
           }),
